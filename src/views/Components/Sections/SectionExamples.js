@@ -42,7 +42,7 @@ export default function SectionExamples() {
             </Link>
           </GridItem>
           <GridItem xs={12} sm={12} md={6}>
-            <Link to="profile-page" className={classes.link}>
+            <Link to="large-box" className={classes.link}>
               <img
                 src={profile}
                 alt="..."
@@ -60,7 +60,7 @@ export default function SectionExamples() {
             </Link>
           </GridItem>
           <GridItem xs={12} sm={12} md={6}>
-            <Link to="profile-page" className={classes.link}>
+            <Link to="medium-box" className={classes.link}>
               <img
                 src={profile}
                 alt="..."
@@ -78,7 +78,7 @@ export default function SectionExamples() {
             </Link>
           </GridItem>
           <GridItem xs={12} sm={12} md={6}>
-            <Link to="profile-page" className={classes.link}>
+            <Link to="small-box" className={classes.link}>
               <img
                 src={profile}
                 alt="..."
@@ -96,7 +96,7 @@ export default function SectionExamples() {
             </Link>
           </GridItem>
           <GridItem xs={12} sm={12} md={6}>
-            <Link to="profile-page" className={classes.link}>
+            <Link to="kindling-box" className={classes.link}>
               <img
                 src={profile}
                 alt="..."
@@ -114,7 +114,7 @@ export default function SectionExamples() {
             </Link>
           </GridItem>
           <GridItem xs={12} sm={12} md={6}>
-            <Link to="profile-page" className={classes.link}>
+            <Link to="collection-orders" className={classes.link}>
               <img
                 src={profile}
                 alt="..."

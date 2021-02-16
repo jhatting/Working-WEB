@@ -21,11 +21,11 @@ ReactDOM.render(
   <Router history={hist}>
     <Switch>
       <Route path="/landing-page" component={LandingPage} />
-      <Route path="/profile-page" component={ProfilePage} />
-      <Route path="/profile-page1" component={ProfilePage1} />
-      <Route path="/profile-page2" component={ProfilePage2} />
-      <Route path="/profile-page3" component={ProfilePage3} />
-      <Route path="/profile-page4" component={ProfilePage4} />
+      <Route path="/large-box" component={ProfilePage} />
+      <Route path="/medium-box" component={ProfilePage1} />
+      <Route path="/small-box" component={ProfilePage2} />
+      <Route path="/kindling-box" component={ProfilePage3} />
+      <Route path="/collection-orders" component={ProfilePage4} />
       <Route path="/login-page" component={LoginPage} />
       <Route path="/" component={Components} />
     </Switch>
