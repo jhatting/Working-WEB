@@ -59,6 +59,78 @@ export default function SectionExamples() {
               </Button>
             </Link>
           </GridItem>
+          <GridItem xs={12} sm={12} md={6}>
+            <Link to="profile-page" className={classes.link}>
+              <img
+                src={profile}
+                alt="..."
+                className={
+                  classes.imgRaised +
+                  " " +
+                  classes.imgRounded +
+                  " " +
+                  classes.imgFluid
+                }
+              />
+              <Button color="primary" size="lg" simple>
+                View profile page
+              </Button>
+            </Link>
+          </GridItem>
+          <GridItem xs={12} sm={12} md={6}>
+            <Link to="profile-page" className={classes.link}>
+              <img
+                src={profile}
+                alt="..."
+                className={
+                  classes.imgRaised +
+                  " " +
+                  classes.imgRounded +
+                  " " +
+                  classes.imgFluid
+                }
+              />
+              <Button color="primary" size="lg" simple>
+                View profile page
+              </Button>
+            </Link>
+          </GridItem>
+          <GridItem xs={12} sm={12} md={6}>
+            <Link to="profile-page" className={classes.link}>
+              <img
+                src={profile}
+                alt="..."
+                className={
+                  classes.imgRaised +
+                  " " +
+                  classes.imgRounded +
+                  " " +
+                  classes.imgFluid
+                }
+              />
+              <Button color="primary" size="lg" simple>
+                View profile page
+              </Button>
+            </Link>
+          </GridItem>
+          <GridItem xs={12} sm={12} md={6}>
+            <Link to="profile-page" className={classes.link}>
+              <img
+                src={profile}
+                alt="..."
+                className={
+                  classes.imgRaised +
+                  " " +
+                  classes.imgRounded +
+                  " " +
+                  classes.imgFluid
+                }
+              />
+              <Button color="primary" size="lg" simple>
+                View profile page
+              </Button>
+            </Link>
+          </GridItem>
         </GridContainer>
       </div>
     </div>

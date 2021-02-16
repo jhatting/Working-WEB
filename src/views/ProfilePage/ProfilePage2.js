@@ -16,7 +16,7 @@ import Button from "components/CustomButtons/Button.js";
 import HeaderLinks from "components/Header/HeaderLinks.js";
 import NavPills from "components/NavPills/NavPills.js";
 import Parallax from "components/Parallax/Parallax.js";
-import SectionCarousel from "/Users/jarrodhatting/Working-WEB/src/views/Components/Sections/SectionCarousel1.js";
+import SectionCarousel from "/Users/jarrodhatting/Working-WEB/src/views/Components/Sections/SectionCarousel.js";
 
 import profile from "assets/img/faces/logo-01.jpg";
 
