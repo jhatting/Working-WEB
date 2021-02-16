@@ -55,7 +55,7 @@ export default function SectionExamples() {
                 }
               />
               <Button color="primary" size="lg" simple>
-                View profile page
+              Large (16in logs 120-140lbs)
               </Button>
             </Link>
           </GridItem>
@@ -73,7 +73,7 @@ export default function SectionExamples() {
                 }
               />
               <Button color="primary" size="lg" simple>
-                View profile page
+              Medium (16in Logs 60-70lb)
               </Button>
             </Link>
           </GridItem>
@@ -91,7 +91,7 @@ export default function SectionExamples() {
                 }
               />
               <Button color="primary" size="lg" simple>
-                View profile page
+              Small Mini Logs (8inch 25-30lbs)
               </Button>
             </Link>
           </GridItem>
@@ -109,7 +109,7 @@ export default function SectionExamples() {
                 }
               />
               <Button color="primary" size="lg" simple>
-                View profile page
+              Kindling (8inch 25lb)
               </Button>
             </Link>
           </GridItem>

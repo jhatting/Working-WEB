@@ -11,8 +11,8 @@ import LandingPage from "views/LandingPage/LandingPage.js";
 import LargeBox from "views/ProfilePage/LargeBox.js";
 import MediumBox from "views/ProfilePage/MediumBox.js";
 import SmallBox from "views/ProfilePage/SmallBox.js";
-import ProfilePage3 from "views/ProfilePage/ProfilePage3.js";
-import ProfilePage4 from "views/ProfilePage/ProfilePage4.js";
+import KindlingBox from "views/ProfilePage/KindlingBox.js";
+import CollectionOrders from "views/ProfilePage/CollectionOrders.js";
 import LoginPage from "views/LoginPage/LoginPage.js";
 
 var hist = createBrowserHistory();
@@ -24,8 +24,8 @@ ReactDOM.render(
       <Route path="/large-box" component={LargeBox} />
       <Route path="/medium-box" component={MediumBox} />
       <Route path="/small-box" component={SmallBox} />
-      <Route path="/kindling-box" component={ProfilePage3} />
-      <Route path="/collection-orders" component={ProfilePage4} />
+      <Route path="/kindling-box" component={KindlingBox} />
+      <Route path="/collection-orders" component={CollectionOrders} />
       <Route path="/login-page" component={LoginPage} />
       <Route path="/" component={Components} />
     </Switch>
