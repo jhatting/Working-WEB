@@ -36,7 +36,7 @@ export default function SectionExamples() {
                   classes.imgFluid
                 }
               />
-              <Button color="primary" size="lg" simple>
+              <Button color="warning" size="lg" simple>
                 View landing page
               </Button>
             </Link>
@@ -54,7 +54,7 @@ export default function SectionExamples() {
                   classes.imgFluid
                 }
               />
-              <Button color="primary" size="lg" simple>
+              <Button color="warning" size="lg" simple>
               Large (16in logs 120-140lbs)
               </Button>
             </Link>
@@ -72,7 +72,7 @@ export default function SectionExamples() {
                   classes.imgFluid
                 }
               />
-              <Button color="primary" size="lg" simple>
+              <Button color="warning" size="lg" simple>
               Medium (16in Logs 60-70lb)
               </Button>
             </Link>
@@ -90,7 +90,7 @@ export default function SectionExamples() {
                   classes.imgFluid
                 }
               />
-              <Button color="primary" size="lg" simple>
+              <Button color="warning" size="lg" simple>
               Small Mini Logs (8inch 25-30lbs)
               </Button>
             </Link>
@@ -108,7 +108,7 @@ export default function SectionExamples() {
                   classes.imgFluid
                 }
               />
-              <Button color="primary" size="lg" simple>
+              <Button color="warning" size="lg" simple>
               Kindling (8inch 25lb)
               </Button>
             </Link>
@@ -126,8 +126,8 @@ export default function SectionExamples() {
                   classes.imgFluid
                 }
               />
-              <Button color="primary" size="lg" simple>
-                View profile page
+              <Button color="warning" size="lg" simple>
+                Collection Orders
               </Button>
             </Link>
           </GridItem>

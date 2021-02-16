@@ -16,7 +16,7 @@ import Button from "components/CustomButtons/Button.js";
 import HeaderLinks from "components/Header/HeaderLinks.js";
 import NavPills from "components/NavPills/NavPills.js";
 import Parallax from "components/Parallax/Parallax.js";
-import SectionCarousel from "/Users/jarrodhatting/Working-WEB/src/views/Components/Sections/SectionCarousel.js";
+import SectionCarousel from "/Users/jarrodhatting/Working-WEB/src/views/Components/Sections/SectionCarousel3.js";
 
 import profile from "assets/img/faces/logo-01.jpg";
 
@@ -85,12 +85,12 @@ export default function ProfilePage(props) {
                     <img src={profile} alt="..." className={imageClasses} />
                   </div>
                   <div className={classes.name}>
-                    <h3 className={classes.title}>Large (16in logs 120-140lbs)</h3>
+                    <h3 className={classes.title}>Kindling (8inch 25lb)</h3>
                     <h6>Species : White Oak</h6>
                     <Button
               color="warning"
               size="lg"
-              href="https://www.amazon.com/dp/B079J78ZS1?tag=amz-mkt-chr-us-20&ascsubtag=1ba00-01000-org00-win10-other-nomod-us000-pcomp-feature-rscomp-wm-5&ref=aa_rscomp"
+              href="https://www.amazon.com/EasyGoProducts-Eco-Stix-Kindling-Firewood-Firestarter/dp/B07P15B51B/ref=pd_di_sccai_1?pd_rd_w=U1WW0&pf_rd_p=c9443270-b914-4430-a90b-72e3e7e784e0&pf_rd_r=69E4VZE40M0HQ0Z7Z79R&pd_rd_r=c9e6cbd8-5c00-4b99-84f7-322a127f7835&pd_rd_wg=BLUZH&pd_rd_i=B07NYTZYQL&th=1"
               target="_blank"
             >
               BUY NOW ON AMAZON
@@ -102,7 +102,7 @@ export default function ProfilePage(props) {
             <SectionCarousel />
             <div className={classes.description}>
               <p>
-              About this item: Kiln Dried Naturally Grown Oak Firewood. Box size 24H x 18W x 18L (logs are 16inches long) 120-140lbs. Product of the USA, logs are harvested fresh from the home of the white oak tree in Oklahoma and dried to perfection which allows the wood to light easily, burn cleaner and hotter! Box is to heavy for most to lift. Upon delivery you could partially unpack until a liftable weight is reached. Can be used to keep warm or cooking wood needs.{" "}
+              About this item: Dried Naturally Grown Oak Firewood. ox size 12H x 12W x 12L (mini logs 8 inches) 25-30lbs. Product of the USA, logs are harvested fresh from the home of the white oak tree in Oklahoma and dried to perfection which allows the wood to light easily, burn cleaner and hotter! Box is to heavy for most to lift. Upon delivery you could partially unpack until a liftable weight is reached. Can be used to keep warm or cooking wood needs.{" "}
               </p>
             </div>
             <GridContainer justify="center">
