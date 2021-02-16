@@ -36,16 +36,21 @@ export default function HeaderLinks(props) {
           }}
           buttonIcon={Apps}
           dropdownList={[
-            <Link to="/" className={classes.dropdownLink}>
-              All components
+            <Link to="large-box" target="_blank" className={classes.link, classes.dropdownLink}>
+              <b>Large (16in logs 120-140lbs)</b>
             </Link>,
-            <a
-              href="https://creativetimofficial.github.io/material-kit-react/#/documentation?ref=mkr-navbar"
-              target="_blank"
-              className={classes.dropdownLink}
-            >
-              Documentation
-            </a>
+            <Link to="medium-box" target="_blank" className={classes.link, classes.dropdownLink}>
+              <b>Medium (16in Logs 60-70lb)</b>
+            </Link>,
+            <Link to="large-box" target="_blank" className={classes.link, classes.dropdownLink}>
+              <b>Large (16in logs 120-140lbs)</b>
+            </Link>,
+            <Link to="large-box" target="_blank" className={classes.link, classes.dropdownLink}>
+            <b>Large (16in logs 120-140lbs)</b>
+            </Link>,
+            <Link to="large-box" target="_blank" className={classes.link, classes.dropdownLink}>
+            <b>Large (16in logs 120-140lbs)</b>
+            </Link>,
           ]}
         />
       </ListItem>
