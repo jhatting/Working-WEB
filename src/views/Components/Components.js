@@ -43,7 +43,7 @@ export default function Components(props) {
   return (
     <div>
       <Header
-        brand="Material Kit React"
+        brand="Natural Firewood"
         rightLinks={<HeaderLinks />}
         fixed
         color="transparent"
@@ -82,7 +82,7 @@ export default function Components(props) {
         <SectionCarousel3/>
         <SectionCarousel4/>
         <SectionCompletedExamples />
-        <SectionLogin />
+        
         <GridItem md={12} className={classes.textCenter}>
           <Link to={"/login-page"} className={classes.link}>
             <Button color="primary" size="lg" simple>
@@ -91,7 +91,7 @@ export default function Components(props) {
           </Link>
         </GridItem>
         <SectionExamples />
-        <SectionDownload />
+       
       </div>
       <Footer />
     </div>

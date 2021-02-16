@@ -55,7 +55,7 @@ export default function SectionExamples() {
                 }
               />
               <Button color="warning" size="lg" simple>
-              Large (16in logs 120-140lbs)
+              <b>Large (16in logs 120-140lbs)</b>
               </Button>
             </Link>
           </GridItem>
@@ -73,7 +73,7 @@ export default function SectionExamples() {
                 }
               />
               <Button color="warning" size="lg" simple>
-              Medium (16in Logs 60-70lb)
+              <b>Medium (16in Logs 60-70lb)</b>
               </Button>
             </Link>
           </GridItem>
@@ -91,7 +91,7 @@ export default function SectionExamples() {
                 }
               />
               <Button color="warning" size="lg" simple>
-              Small Mini Logs (8inch 25-30lbs)
+              <b>Small Mini Logs (8inch 25-30lbs)</b>
               </Button>
             </Link>
           </GridItem>
@@ -109,7 +109,7 @@ export default function SectionExamples() {
                 }
               />
               <Button color="warning" size="lg" simple>
-              Kindling (8inch 25lb)
+              <b>Kindling (8inch 25lb)</b>
               </Button>
             </Link>
           </GridItem>
@@ -127,7 +127,7 @@ export default function SectionExamples() {
                 }
               />
               <Button color="warning" size="lg" simple>
-                Collection Orders
+                <b>Collection Orders</b>
               </Button>
             </Link>
           </GridItem>
