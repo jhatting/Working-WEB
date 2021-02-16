@@ -7,7 +7,7 @@ const imagesStyles = {
     borderRadius: "6px !important"
   },
   imgRoundedCircle: {
-    borderRadius: "250% !important"
+    borderRadius: "50% !important"
   },
   imgRaised: {
     boxShadow:
