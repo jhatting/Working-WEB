@@ -16,7 +16,7 @@ import Button from "components/CustomButtons/Button.js";
 import HeaderLinks from "components/Header/HeaderLinks.js";
 import NavPills from "components/NavPills/NavPills.js";
 import Parallax from "components/Parallax/Parallax.js";
-import SectionCarousel from "/Users/jarrodhatting/Working-WEB/src/views/Components/Sections/SectionCarousel.js";
+import SectionCarousel from "/Users/jarrodhatting/Working-WEB/src/views/Components/Sections/SectionCarousel4.js";
 
 import profile from "assets/img/faces/logo-01.jpg";
 
@@ -85,25 +85,27 @@ export default function ProfilePage(props) {
                     <img src={profile} alt="..." className={imageClasses} />
                   </div>
                   <div className={classes.name}>
-                    <h3 className={classes.title}>Large (16in logs 120-140lbs)</h3>
+                    <h3 className={classes.title}>Collection Orders</h3>
                     <h6>Species : White Oak</h6>
-                    <Button
-              color="warning"
-              size="lg"
-              href="https://www.amazon.com/dp/B079J78ZS1?tag=amz-mkt-chr-us-20&ascsubtag=1ba00-01000-org00-win10-other-nomod-us000-pcomp-feature-rscomp-wm-5&ref=aa_rscomp"
-              target="_blank"
-            >
-              BUY NOW ON AMAZON
-            </Button>
+                    <h4><b>TO PLACE AN ORDER...If within 20 miles from zip 73439, call or text +1(646)841-6483 (Delivery fee extra $50)</b></h4>
+                  
                   </div>
                 </div>
               </GridItem>
             </GridContainer>
             <SectionCarousel />
             <div className={classes.description}>
-              <p>
-              About this item: Kiln Dried Naturally Grown Oak Firewood. Box size 24H x 18W x 18L (logs are 16inches long) 120-140lbs. Product of the USA, logs are harvested fresh from the home of the white oak tree in Oklahoma and dried to perfection which allows the wood to light easily, burn cleaner and hotter! Box is to heavy for most to lift. Upon delivery you could partially unpack until a liftable weight is reached. Can be used to keep warm or cooking wood needs.{" "}
-              </p>
+              <b>
+                Cord: 4ft x 4ft x 8ft, +-600 pieces, +-3000LBS, $225
+              </b>
+              <p></p>
+              <b>
+                Face Cord: 2ft x 4ft x 8ft, +-300 pieces, +-1500LBS, $130
+              </b>
+              <p></p>
+              <b>
+                Rick (1/3 of a cord): 16inches x 4ft x 8ft, +-200 pieces, +-1000LBS, $80
+              </b>
             </div>
             <GridContainer justify="center">
               <GridItem xs={12} sm={12} md={8} className={classes.navWrapper}>
