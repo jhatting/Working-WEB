@@ -30,6 +30,18 @@ import work3 from "assets/img/examples/cynthia-del-rio.jpg";
 import work4 from "assets/img/examples/mariya-georgieva.jpg";
 import work5 from "assets/img/examples/clem-onojegaw.jpg";
 
+import experience0 from "assets/img/examples/experience-00.jpg";
+import experience1 from "assets/img/examples/experience-01.jpg";
+import experience2 from "assets/img/examples/experience-02.jpg";
+import experience3 from "assets/img/examples/experience-03.jpg";
+import food0 from "assets/img/examples/food-00.jpg";
+import food1 from "assets/img/examples/food-01.jpg";
+import food2 from "assets/img/examples/food-02.jpg";
+import warm0 from "assets/img/examples/warm-00.jpg";
+import warm1 from "assets/img/examples/warm-01.jpg";
+import warm2 from "assets/img/examples/warm-02.jpg";
+import warm3 from "assets/img/examples/warm-03.jpg";
+
 import styles from "assets/jss/material-kit-react/views/profilePage.js";
 
 const useStyles = makeStyles(styles);
@@ -104,7 +116,7 @@ export default function ProfilePage(props) {
                           <GridItem xs={12} sm={12} md={4}>
                             <img
                               alt="..."
-                              src={studio1}
+                              src={warm0}
                               className={navImageClasses}
                             />
                             <img
