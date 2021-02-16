@@ -34,15 +34,21 @@ import experience0 from "assets/img/examples/experience-00.jpg";
 import experience1 from "assets/img/examples/experience-01.jpg";
 import experience2 from "assets/img/examples/experience-02.jpg";
 import experience3 from "assets/img/examples/experience-03.jpg";
+import experience4 from "assets/img/examples/experience-04.jpg";
 import food0 from "assets/img/examples/food-00.jpg";
 import food1 from "assets/img/examples/food-01.jpg";
 import food2 from "assets/img/examples/food-02.jpg";
+import food5 from "assets/img/examples/food-05.jpg";
+import food4 from "assets/img/examples/food-04.jpg";
 import warm0 from "assets/img/examples/warm-00.jpg";
 import warm1 from "assets/img/examples/warm-01.jpg";
 import warm2 from "assets/img/examples/warm-02.jpg";
 import warm3 from "assets/img/examples/warm-03.jpg";
 
 import styles from "assets/jss/material-kit-react/views/profilePage.js";
+import { Fireplace, FourK, Kitchen, KitchenTwoTone } from "@material-ui/icons";
+
+import color from "assets/scss/core/variables/_colors.scss"
 
 const useStyles = makeStyles(styles);
 
@@ -106,11 +112,11 @@ export default function ProfilePage(props) {
               <GridItem xs={12} sm={12} md={8} className={classes.navWrapper}>
                 <NavPills
                   alignCenter
-                  color="primary"
+                  color="warning"
                   tabs={[
                     {
-                      tabButton: "Studio",
-                      tabIcon: Camera,
+                      tabButton: "Warmth from Fire",
+                      tabIcon: Fireplace,
                       tabContent: (
                         <GridContainer justify="center">
                           <GridItem xs={12} sm={12} md={4}>
@@ -121,19 +127,19 @@ export default function ProfilePage(props) {
                             />
                             <img
                               alt="..."
-                              src={studio2}
+                              src={warm1}
                               className={navImageClasses}
                             />
                           </GridItem>
                           <GridItem xs={12} sm={12} md={4}>
                             <img
                               alt="..."
-                              src={studio5}
+                              src={warm2}
                               className={navImageClasses}
                             />
                             <img
                               alt="..."
-                              src={studio4}
+                              src={warm3}
                               className={navImageClasses}
                             />
                           </GridItem>
@@ -141,36 +147,36 @@ export default function ProfilePage(props) {
                       )
                     },
                     {
-                      tabButton: "Work",
-                      tabIcon: Palette,
+                      tabButton: "Cooking with Fire",
+                      tabIcon: KitchenTwoTone,
                       tabContent: (
                         <GridContainer justify="center">
                           <GridItem xs={12} sm={12} md={4}>
                             <img
                               alt="..."
-                              src={work1}
+                              src={food0}
                               className={navImageClasses}
                             />
                             <img
                               alt="..."
-                              src={work2}
+                              src={food1}
                               className={navImageClasses}
                             />
                             <img
                               alt="..."
-                              src={work3}
+                              src={food2}
                               className={navImageClasses}
                             />
                           </GridItem>
                           <GridItem xs={12} sm={12} md={4}>
                             <img
                               alt="..."
-                              src={work4}
+                              src={food5}
                               className={navImageClasses}
                             />
                             <img
                               alt="..."
-                              src={work5}
+                              src={food4}
                               className={navImageClasses}
                             />
                           </GridItem>
@@ -178,36 +184,36 @@ export default function ProfilePage(props) {
                       )
                     },
                     {
-                      tabButton: "Favorite",
+                      tabButton: "Experiences around fire",
                       tabIcon: Favorite,
                       tabContent: (
                         <GridContainer justify="center">
                           <GridItem xs={12} sm={12} md={4}>
                             <img
                               alt="..."
-                              src={work4}
+                              src={experience0}
                               className={navImageClasses}
                             />
                             <img
                               alt="..."
-                              src={studio3}
+                              src={experience1}
                               className={navImageClasses}
                             />
                           </GridItem>
                           <GridItem xs={12} sm={12} md={4}>
                             <img
                               alt="..."
-                              src={work2}
+                              src={experience2}
                               className={navImageClasses}
                             />
                             <img
                               alt="..."
-                              src={work1}
+                              src={experience3}
                               className={navImageClasses}
                             />
                             <img
                               alt="..."
-                              src={studio1}
+                              src={experience4}
                               className={navImageClasses}
                             />
                           </GridItem>
