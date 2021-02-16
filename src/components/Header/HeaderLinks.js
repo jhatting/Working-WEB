@@ -42,14 +42,14 @@ export default function HeaderLinks(props) {
             <Link to="medium-box" target="_blank" className={classes.link, classes.dropdownLink}>
               <b>Medium (16in Logs 60-70lb)</b>
             </Link>,
-            <Link to="large-box" target="_blank" className={classes.link, classes.dropdownLink}>
-              <b>Large (16in logs 120-140lbs)</b>
+            <Link to="small-box" target="_blank" className={classes.link, classes.dropdownLink}>
+              <b>Small Mini Logs (8inch 25-30lbs)</b>
             </Link>,
-            <Link to="large-box" target="_blank" className={classes.link, classes.dropdownLink}>
-            <b>Large (16in logs 120-140lbs)</b>
+            <Link to="kindling-box" target="_blank" className={classes.link, classes.dropdownLink}>
+            <b>Kindling (8inch 25lb)</b>
             </Link>,
-            <Link to="large-box" target="_blank" className={classes.link, classes.dropdownLink}>
-            <b>Large (16in logs 120-140lbs)</b>
+            <Link to="collection-orders" target="_blank" className={classes.link, classes.dropdownLink}>
+            <b>Local Collection Orders</b>
             </Link>,
           ]}
         />

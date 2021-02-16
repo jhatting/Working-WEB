@@ -85,7 +85,7 @@ export default function ProfilePage(props) {
                     <img src={profile} alt="..." className={imageClasses} />
                   </div>
                   <div className={classes.name}>
-                    <h3 className={classes.title}>Collection Orders</h3>
+                    <h3 className={classes.title}>Local Collection Orders</h3>
                     <h6>Species : White Oak</h6>
                     <h4><b>TO PLACE AN ORDER...If within 20 miles from zip 73439, call or text +1(646)841-6483 (Delivery fee extra $50)</b></h4>
                   
