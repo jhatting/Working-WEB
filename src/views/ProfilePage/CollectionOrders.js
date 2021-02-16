@@ -31,20 +31,20 @@ import work3 from "assets/img/examples/cynthia-del-rio.jpg";
 import work4 from "assets/img/examples/mariya-georgieva.jpg";
 import work5 from "assets/img/examples/clem-onojegaw.jpg";
 
-import experience0 from "assets/img/examples/experience-00.jpg";
-import experience1 from "assets/img/examples/experience-01.jpg";
-import experience2 from "assets/img/examples/experience-02.jpg";
-import experience3 from "assets/img/examples/experience-03.jpg";
-import experience4 from "assets/img/examples/experience-04.jpg";
-import food0 from "assets/img/examples/food-00.jpg";
-import food1 from "assets/img/examples/food-01.jpg";
-import food2 from "assets/img/examples/food-02.jpg";
-import food5 from "assets/img/examples/food-05.jpg";
-import food4 from "assets/img/examples/food-04.jpg";
-import warm0 from "assets/img/examples/warm-00.jpg";
-import warm1 from "assets/img/examples/warm-01.jpg";
-import warm2 from "assets/img/examples/warm-02.jpg";
-import warm3 from "assets/img/examples/warm-03.jpg";
+import experience0 from "assets/img/examples/experience-05.jpg";
+import experience1 from "assets/img/examples/experience-06.jpg";
+import experience2 from "assets/img/examples/experience-07.jpg";
+import experience3 from "assets/img/examples/experience-08.jpg";
+import experience4 from "assets/img/examples/experience-09.jpg";
+import food0 from "assets/img/examples/food-06.jpg";
+import food1 from "assets/img/examples/food-07.jpg";
+import food2 from "assets/img/examples/food-08.jpg";
+import food5 from "assets/img/examples/food-09.jpg";
+import food4 from "assets/img/examples/food-10.jpg";
+import warm0 from "assets/img/examples/warm-04.jpg";
+import warm1 from "assets/img/examples/warm-05.jpg";
+import warm2 from "assets/img/examples/warm-06.jpg";
+import warm3 from "assets/img/examples/warm-07.jpg";
 
 import styles from "assets/jss/material-kit-react/views/profilePage.js";
 import { Fireplace, FourK, Kitchen, KitchenTwoTone } from "@material-ui/icons";
@@ -74,7 +74,7 @@ export default function ProfilePage(props) {
         }}
         {...rest}
       />
-      <Parallax small filter image={require("assets/img/banner-20.jpg")} />
+      <Parallax small filter image={require("assets/img/banner-19.jpg")} />
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div>
           <div className={classes.container}>
