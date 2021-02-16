@@ -16,6 +16,7 @@ import GridItem from "components/Grid/GridItem.js";
 import HeaderLinks from "components/Header/HeaderLinks.js";
 import NavPills from "components/NavPills/NavPills.js";
 import Parallax from "components/Parallax/Parallax.js";
+import SectionCarousel from "/Users/jarrodhatting/Working-WEB/src/views/Components/Sections/SectionCarousel.js";
 
 import profile from "assets/img/faces/christian.jpg";
 
@@ -48,7 +49,6 @@ import warm3 from "assets/img/examples/warm-03.jpg";
 import styles from "assets/jss/material-kit-react/views/profilePage.js";
 import { Fireplace, FourK, Kitchen, KitchenTwoTone } from "@material-ui/icons";
 
-import color from "assets/scss/core/variables/_colors.scss"
 
 const useStyles = makeStyles(styles);
 
@@ -65,11 +65,11 @@ export default function ProfilePage(props) {
     <div>
       <Header
         color="transparent"
-        brand="Material Kit React"
+        brand="Natural Firewood"
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{
-          height: 200,
+          height: 400,
           color: "white"
         }}
         {...rest}
@@ -85,27 +85,16 @@ export default function ProfilePage(props) {
                     <img src={profile} alt="..." className={imageClasses} />
                   </div>
                   <div className={classes.name}>
-                    <h3 className={classes.title}>Christian Louboutin</h3>
-                    <h6>DESIGNER</h6>
-                    <Button justIcon link className={classes.margin5}>
-                      <i className={"fab fa-twitter"} />
-                    </Button>
-                    <Button justIcon link className={classes.margin5}>
-                      <i className={"fab fa-instagram"} />
-                    </Button>
-                    <Button justIcon link className={classes.margin5}>
-                      <i className={"fab fa-facebook"} />
-                    </Button>
+                    <h3 className={classes.title}>Large (16in logs 120-140lbs)</h3>
+                    <h6>Species : White Oak</h6>
                   </div>
                 </div>
               </GridItem>
             </GridContainer>
+            <SectionCarousel />
             <div className={classes.description}>
               <p>
-                An artist of considerable range, Chet Faker — the name taken by
-                Melbourne-raised, Brooklyn-based Nick Murphy — writes, performs
-                and records all of his own music, giving it a warm, intimate
-                feel with a solid groove structure.{" "}
+              About this item: Kiln Dried Naturally Grown Oak Firewood. Box size 24H x 18W x 18L (logs are 16inches long) 120-140lbs. Product of the USA, logs are harvested fresh from the home of the white oak tree in Oklahoma and kiln dried to perfection which allows the wood to light easily, burn cleaner and hotter! Box is to heavy for most to lift. Upon delivery you could partially unpack until a liftable weight is reached. Can be used to keep warm or cooking wood needs.{" "}
               </p>
             </div>
             <GridContainer justify="center">
@@ -226,6 +215,8 @@ export default function ProfilePage(props) {
             </GridContainer>
           </div>
         </div>
+      </div>
+      <div className={classNames(classes.main, classes.mainRaised)}>
       </div>
       <Footer />
     </div>
