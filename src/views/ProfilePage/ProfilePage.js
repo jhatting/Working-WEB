@@ -87,7 +87,14 @@ export default function ProfilePage(props) {
                   <div className={classes.name}>
                     <h3 className={classes.title}>Large (16in logs 120-140lbs)</h3>
                     <h6>Species : White Oak</h6>
-                    <Button color="warning">BUY NOW</Button>
+                    <Button
+              color="warning"
+              size="lg"
+              href="https://www.amazon.com/dp/B079J78ZS1?tag=amz-mkt-chr-us-20&ascsubtag=1ba00-01000-org00-win10-other-nomod-us000-pcomp-feature-rscomp-wm-5&ref=aa_rscomp"
+              target="_blank"
+            >
+              BUY NOW ON AMAZON
+            </Button>
                   </div>
                 </div>
               </GridItem>
@@ -95,7 +102,7 @@ export default function ProfilePage(props) {
             <SectionCarousel />
             <div className={classes.description}>
               <p>
-              About this item: Kiln Dried Naturally Grown Oak Firewood. Box size 24H x 18W x 18L (logs are 16inches long) 120-140lbs. Product of the USA, logs are harvested fresh from the home of the white oak tree in Oklahoma and kiln dried to perfection which allows the wood to light easily, burn cleaner and hotter! Box is to heavy for most to lift. Upon delivery you could partially unpack until a liftable weight is reached. Can be used to keep warm or cooking wood needs.{" "}
+              About this item: Kiln Dried Naturally Grown Oak Firewood. Box size 24H x 18W x 18L (logs are 16inches long) 120-140lbs. Product of the USA, logs are harvested fresh from the home of the white oak tree in Oklahoma and dried to perfection which allows the wood to light easily, burn cleaner and hotter! Box is to heavy for most to lift. Upon delivery you could partially unpack until a liftable weight is reached. Can be used to keep warm or cooking wood needs.{" "}
               </p>
             </div>
             <GridContainer justify="center">
