@@ -8,8 +8,8 @@ import "assets/scss/material-kit-react.scss?v=1.9.0";
 // pages for this product
 import Components from "views/Components/Components.js";
 import LandingPage from "views/LandingPage/LandingPage.js";
-import ProfilePage from "views/ProfilePage/ProfilePage.js";
-import ProfilePage1 from "views/ProfilePage/ProfilePage1.js";
+import LargeBox from "views/ProfilePage/LargeBox.js";
+import MediumBox from "views/ProfilePage/MediumBox.js";
 import ProfilePage2 from "views/ProfilePage/ProfilePage2.js";
 import ProfilePage3 from "views/ProfilePage/ProfilePage3.js";
 import ProfilePage4 from "views/ProfilePage/ProfilePage4.js";
@@ -21,8 +21,8 @@ ReactDOM.render(
   <Router history={hist}>
     <Switch>
       <Route path="/landing-page" component={LandingPage} />
-      <Route path="/large-box" component={ProfilePage} />
-      <Route path="/medium-box" component={ProfilePage1} />
+      <Route path="/large-box" component={LargeBox} />
+      <Route path="/medium-box" component={MediumBox} />
       <Route path="/small-box" component={ProfilePage2} />
       <Route path="/kindling-box" component={ProfilePage3} />
       <Route path="/collection-orders" component={ProfilePage4} />
