@@ -10,7 +10,7 @@ import Components from "views/Components/Components.js";
 import LandingPage from "views/LandingPage/LandingPage.js";
 import LargeBox from "views/ProfilePage/LargeBox.js";
 import MediumBox from "views/ProfilePage/MediumBox.js";
-import ProfilePage2 from "views/ProfilePage/ProfilePage2.js";
+import SmallBox from "views/ProfilePage/SmallBox.js";
 import ProfilePage3 from "views/ProfilePage/ProfilePage3.js";
 import ProfilePage4 from "views/ProfilePage/ProfilePage4.js";
 import LoginPage from "views/LoginPage/LoginPage.js";
@@ -23,7 +23,7 @@ ReactDOM.render(
       <Route path="/landing-page" component={LandingPage} />
       <Route path="/large-box" component={LargeBox} />
       <Route path="/medium-box" component={MediumBox} />
-      <Route path="/small-box" component={ProfilePage2} />
+      <Route path="/small-box" component={SmallBox} />
       <Route path="/kindling-box" component={ProfilePage3} />
       <Route path="/collection-orders" component={ProfilePage4} />
       <Route path="/login-page" component={LoginPage} />
