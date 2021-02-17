@@ -32,6 +32,7 @@ import SectionCompletedExamples from "./Sections/SectionCompletedExamples.js";
 import SectionLogin from "./Sections/SectionLogin.js";
 import SectionExamples from "./Sections/SectionExamples.js";
 import SectionDownload from "./Sections/SectionDownload.js";
+import image from "assets/img/faces/logo-xs1-01.png";
 
 import styles from "assets/jss/material-kit-react/views/components.js";
 
@@ -53,12 +54,16 @@ export default function Components(props) {
         }}
         {...rest}
       />
-      <Parallax image={require("assets/img/bg4.jpg")}>
+      <Parallax image={require("assets/img/banner-18.jpg")}>
         <div className={classes.container}>
           <GridContainer>
             <GridItem>
               <div className={classes.brand}>
-                <h1 className={classes.title}>Material Kit React.</h1>
+                <h1 className={classes.title}><img
+                src={image}
+                alt="..."
+                className={classes.imgRounded + " " + classes.imgFluid}
+              /></h1>
                 <h3 className={classes.subtitle}>
                   A Badass Material-UI Kit based on Material Design.
                 </h3>
@@ -75,7 +80,6 @@ export default function Components(props) {
         <SectionPills />
         <SectionNotifications />
         <SectionTypography />
-        <SectionJavascript />
         <SectionCarousel />
         <SectionCarousel1/>
         <SectionCarousel2/>
