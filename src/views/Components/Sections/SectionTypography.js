@@ -28,50 +28,17 @@ export default function SectionTypography() {
     <div className={classes.section}>
       <div className={classes.container}>
         <div id="typography">
-          <div className={classes.title}>
-            <h2>Typography</h2>
-          </div>
+          
           <GridContainer>
             <div className={classes.typo}>
-              <div className={classes.note}>Header 1</div>
-              <h1>The Life of Material Kit</h1>
+              <h1>Why firewood?</h1>
+              <h2>What inspires us with burning wood?</h2>
+              <Quote
+                text="Fire is more that just wood and flame. Fire has the power to unite, change and comfort us. There is a magical component to fire. It can make you fall in love, reminisce on special memories and feel inspired, all at the same time. You can sit in front of a fire for hours, hypnotized by its forgiving  flame content, of just being. One cannot describe the effect fire has on a basic human emotion in one word. It is one of the few basic human experiences that every person on the planet needs to experience. In some way or another it will change you, it will reconnect you on a much deeper level with yourself and others. For that basic principle we created this company with the intention of bringing you closer to nature the natural way whether you are cooking, staying warm or just wanting the experience."
+                author="Jarrod Hatting"
+              />
             </div>
-            <div className={classes.typo}>
-              <div className={classes.note}>Header 2</div>
-              <h2>The Life of Material Kit</h2>
-            </div>
-            <div className={classes.typo}>
-              <div className={classes.note}>Header 3</div>
-              <h3>The Life of Material Kit</h3>
-            </div>
-            <div className={classes.typo}>
-              <div className={classes.note}>Header 4</div>
-              <h4>The Life of Material Kit</h4>
-            </div>
-            <div className={classes.typo}>
-              <div className={classes.note}>Header 5</div>
-              <h5>The Life of Material Kit</h5>
-            </div>
-            <div className={classes.typo}>
-              <div className={classes.note}>Header 6</div>
-              <h6>The Life of Material Kit</h6>
-            </div>
-            <div className={classes.typo}>
-              <div className={classes.note}>Header 1</div>
-              <h1 className={classes.title}>The Life of Material Kit</h1>
-            </div>
-            <div className={classes.typo}>
-              <div className={classes.note}>Header 2</div>
-              <h2 className={classes.title}>The Life of Material Kit</h2>
-            </div>
-            <div className={classes.typo}>
-              <div className={classes.note}>Header 3</div>
-              <h3 className={classes.title}>The Life of Material Kit</h3>
-            </div>
-            <div className={classes.typo}>
-              <div className={classes.note}>Header 4</div>
-              <h4 className={classes.title}>The Life of Material Kit</h4>
-            </div>
+            
             <div className={classes.typo}>
               <div className={classes.note}>Paragraph</div>
               <p>
@@ -85,8 +52,8 @@ export default function SectionTypography() {
             <div className={classes.typo}>
               <div className={classes.note}>Quote</div>
               <Quote
-                text="I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at."
-                author=" Kanye West, Musician"
+                text="Fire is more that just wood and flame. Fire has the power to unite, change and comfort us. There is a magical component to fire. It can make you fall in love, reminisce on special memories and feel inspired, all at the same time. You can sit in front of a fire for hours, hypnotized by its forgiving  flame content, of just being. One cannot describe the effect fire has on a basic human emotion in one word. It is one of the few basic human experiences that every person on the planet needs to experience. In some way or another it will change you, it will reconnect you on a much deeper level with yourself and others. For that basic principle we created this company with the intention of bringing you closer to nature the natural way whether you are cooking, staying warm or just wanting the experience."
+                author="Jarrod Hatting"
               />
             </div>
             <div className={classes.typo}>
