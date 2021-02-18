@@ -27,6 +27,8 @@ import SectionCarousel1 from "./Sections/SectionCarousel1.js";
 import SectionCarousel2 from "./Sections/SectionCarousel2.js";
 import SectionCarousel3 from "./Sections/SectionCarousel3.js";
 import SectionCarousel4 from "./Sections/SectionCarousel4.js";
+import SectionCarousel5 from "./Sections/SectionCarousel5.js";
+
 
 import SectionCompletedExamples from "./Sections/SectionCompletedExamples.js";
 import SectionLogin from "./Sections/SectionLogin.js";
@@ -75,9 +77,9 @@ export default function Components(props) {
 
       <div className={classNames(classes.main, classes.mainRaised)}>
         <SectionNavbars />
-        
-        <SectionCarousel1  />
-        <SectionExamples />
+        <SectionCarousel5/>
+        <SectionCarousel1/>
+        <SectionExamples/>
        
       </div>
       <Footer />
