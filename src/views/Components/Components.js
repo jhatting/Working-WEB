@@ -75,14 +75,6 @@ export default function Components(props) {
 
       <div className={classNames(classes.main, classes.mainRaised)}>
         <SectionTypography />
-        
-<GridItem md={12} className={classes.textCenter}>
-          <Link to={"/login-page"} className={classes.link}>
-            <Button color="primary" size="lg" simple>
-              View Login Page
-            </Button>
-          </Link>
-        </GridItem>
         <SectionExamples />
        
       </div>
