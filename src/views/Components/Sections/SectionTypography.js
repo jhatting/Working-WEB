@@ -28,7 +28,8 @@ export default function SectionTypography() {
     <div className={classes.section}>
       <div className={classes.container}>
         <div id="typography">
-          <GridContainer>
+          
+          <GridContainer justify="center">
             <div className={classes.typo}>
               <h1>Why firewood?</h1>
               <h2>What inspires us with burning wood?</h2>

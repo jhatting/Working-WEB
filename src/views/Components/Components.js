@@ -64,9 +64,7 @@ export default function Components(props) {
                 alt="..."
                 className={classes.imgRounded + " " + classes.imgFluid}
               /></h1>
-                <h3 className={classes.subtitle}>
-                  A Badass Material-UI Kit based on Material Design.
-                </h3>
+                
               </div>
             </GridItem>
           </GridContainer>
