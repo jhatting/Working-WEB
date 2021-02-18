@@ -32,6 +32,7 @@ export default function LandingPage(props) {
   return (
     <div>
       <Header
+        
         color="transparent"
         routes={dashboardRoutes}
         brand="Natural Firewood"
