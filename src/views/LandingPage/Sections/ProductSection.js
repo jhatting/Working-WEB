@@ -27,6 +27,7 @@ export default function ProductSection() {
             Feel free to contact us via email, phone or smoke signals. Customer service is extremely important to
             us and we{"'"}ll do what ever we can to help. 
           </h5>
+          <h3 className={classes.description} >Our collection location is<br/>10916 Lois Lane, Kingston, Oklahoma, 73439</h3>
         </GridItem>
       </GridContainer>
       <div>
