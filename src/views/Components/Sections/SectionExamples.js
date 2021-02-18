@@ -11,7 +11,11 @@ import GridItem from "components/Grid/GridItem.js";
 import Button from "components/CustomButtons/Button.js";
 
 import landing from "assets/img/landing.jpg";
-import profile from "assets/img/profile.jpg";
+import profile from "assets/img/large-profile.jpg";
+import medium from "assets/img/medium-profile.jpg";
+import small from "assets/img/small-profile.jpg";
+import kindling from "assets/img/kindling-profile.jpg";
+import collection from "assets/img/collection-profile.jpg";
 
 import styles from "assets/jss/material-kit-react/views/componentsSections/exampleStyle.js";
 
@@ -23,24 +27,7 @@ export default function SectionExamples() {
     <div className={classes.section}>
       <div className={classes.container}>
         <GridContainer justify="center">
-          <GridItem xs={12} sm={12} md={6}>
-            <Link to="contact-page" className={classes.link}>
-              <img
-                src={landing}
-                alt="..."
-                className={
-                  classes.imgRaised +
-                  " " +
-                  classes.imgRounded +
-                  " " +
-                  classes.imgFluid
-                }
-              />
-              <Button color="warning" size="lg" simple>
-                View landing page
-              </Button>
-            </Link>
-          </GridItem>
+          
           <GridItem xs={12} sm={12} md={6}>
             <Link to="large-box" className={classes.link}>
               <img
@@ -62,7 +49,7 @@ export default function SectionExamples() {
           <GridItem xs={12} sm={12} md={6}>
             <Link to="medium-box" className={classes.link}>
               <img
-                src={profile}
+                src={medium}
                 alt="..."
                 className={
                   classes.imgRaised +
@@ -80,7 +67,7 @@ export default function SectionExamples() {
           <GridItem xs={12} sm={12} md={6}>
             <Link to="small-box" className={classes.link}>
               <img
-                src={profile}
+                src={small}
                 alt="..."
                 className={
                   classes.imgRaised +
@@ -98,7 +85,7 @@ export default function SectionExamples() {
           <GridItem xs={12} sm={12} md={6}>
             <Link to="kindling-box" className={classes.link}>
               <img
-                src={profile}
+                src={kindling}
                 alt="..."
                 className={
                   classes.imgRaised +
@@ -116,7 +103,7 @@ export default function SectionExamples() {
           <GridItem xs={12} sm={12} md={6}>
             <Link to="collection-orders" className={classes.link}>
               <img
-                src={profile}
+                src={collection}
                 alt="..."
                 className={
                   classes.imgRaised +
