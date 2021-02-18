@@ -39,6 +39,7 @@ export default function SectionNavbars() {
       <div className={classes.container}>
         <GridContainer justify="center">
           <GridItem xs={12} sm={12} md={8}>
+            <br></br>
             <h2>What inspires us to burn wood?</h2>
             <h4>Fire is more that just wood and flame. Fire has the power to unite, change and comfort us.
                There is a magical component to fire. It can make you fall in love, reminisce on special
