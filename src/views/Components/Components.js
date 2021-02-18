@@ -74,20 +74,9 @@ export default function Components(props) {
       </Parallax>
 
       <div className={classNames(classes.main, classes.mainRaised)}>
-        <SectionBasics />
-        <SectionNavbars />
-        <SectionTabs />
-        <SectionPills />
-        <SectionNotifications />
         <SectionTypography />
-        <SectionCarousel />
-        <SectionCarousel1/>
-        <SectionCarousel2/>
-        <SectionCarousel3/>
-        <SectionCarousel4/>
-        <SectionCompletedExamples />
         
-        <GridItem md={12} className={classes.textCenter}>
+<GridItem md={12} className={classes.textCenter}>
           <Link to={"/login-page"} className={classes.link}>
             <Button color="primary" size="lg" simple>
               View Login Page
