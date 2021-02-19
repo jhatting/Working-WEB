@@ -13,7 +13,7 @@ import GridItem from "components/Grid/GridItem.js";
 import HeaderLinks from "components/Header/HeaderLinks.js";
 import NavPills from "components/NavPills/NavPills.js";
 import Parallax from "components/Parallax/Parallax.js";
-import SectionCarousel from "/Users/jarrodhatting/Working-WEB/src/views/Components/Sections/SectionCarousel4.js";
+import SectionCarousel from "views/Components/Sections/SectionCarousel4.js";
 
 import profile from "assets/img/faces/logo-01.jpg";
 
