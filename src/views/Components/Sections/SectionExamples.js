@@ -10,7 +10,6 @@ import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import Button from "components/CustomButtons/Button.js";
 
-import landing from "assets/img/landing.jpg";
 import profile from "assets/img/large-profile.jpg";
 import medium from "assets/img/medium-profile.jpg";
 import small from "assets/img/small-profile.jpg";
